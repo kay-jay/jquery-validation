@@ -158,6 +158,9 @@ grunt.initConfig({
 		}
 	},
 	jscs: {
+		options: {
+			config: ".jscsrc"
+		},
 		core: {
 			src: "<%= jshint.core.src %>"
 		},
